@@ -14,7 +14,8 @@ class card
 
     public:
 
-    //Constructor
+    //Constructor (default and parameterized)
+    card();
     card(int r, string s);
 
 
@@ -22,9 +23,6 @@ class card
     int getRank();
 
     string getSuit();
-
-    //Displays card information
-    void displayCard();
 };
 
 #endif
