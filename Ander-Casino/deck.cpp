@@ -1,6 +1,7 @@
 #include "deck.h"
 #include <iostream>
 #include <string>
+#include <cstdlib>
 
 using namespace std;
 
@@ -23,7 +24,9 @@ void deck::shuffle()
 {
     for (int i = 0; i < 52; i++)
     {
-        int j = rand() % 52;
+        // Pick a random number from i to 52 to ensure randomness
+        int j = i + (rand() % (52 - i));
+        
         card temp = cards[i];
         cards[i] = cards[j];
         cards[j] = temp;

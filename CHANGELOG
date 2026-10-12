@@ -1,0 +1,18 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.1.1] - 2026-10-11
+
+### Added
+- Created `Card` class declaration and implementation.
+- Created `Deck` class declaration and implementation.
+- Added main entry point file.
+- Added a mini test game to verify `Card` and `Deck` functionality.
+- Added a `CHANGELOG.md` file to track changes and updates.
+- Added a `README.md` file to provide an overview of the project and its purpose.
+- Added a `LICENSE` file to specify the terms under which the project can be used and distributed.
+- Compiled and ran `Ander-Casino` successfully to ensure that the initial code worked.
