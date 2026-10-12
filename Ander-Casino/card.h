@@ -22,9 +22,6 @@ class card
     int getRank();
 
     string getSuit();
-
-    //Displays card information
-    void displayCard();
 };
 
 #endif
