@@ -14,7 +14,8 @@ class card
 
     public:
 
-    //Constructor
+    //Constructor (default and parameterized)
+    card();
     card(int r, string s);
 
 
